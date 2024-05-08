@@ -1,4 +1,4 @@
-import axios from './axios.config';
+import axios from './axios.config.js';
 
 export const getUserById = async (id) => {
   return await axios.get(`/users/${id}`);
